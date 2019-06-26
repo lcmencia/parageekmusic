@@ -1,5 +1,5 @@
 <template>
-<div id="app"><img src="./assets/logo.png"/>
+<div id="app"><img src="https://lcmencia.github.io/parageekmusic/assets/logo.png"/>
   <h1>ParageekMusic</h1>
   <select v-model="selectedCountry">
     <option v-for="country in countries" v-bind:value="country.value">{{ country.name }}</option>
